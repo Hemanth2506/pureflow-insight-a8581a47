@@ -1,0 +1,4 @@
+project_id = "gbmgyfpxolrbikikekbn"
+
+[functions.microplastics-chat]
+verify_jwt = false
