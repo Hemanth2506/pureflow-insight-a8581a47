@@ -9,7 +9,7 @@ import { FeedbackForm } from "@/components/Dashboard/FeedbackForm";
 import { ChatInterface } from "@/components/Chatbot/ChatInterface";
 import { ProfileModal } from "@/components/ProfileModal";
 import { Button } from "@/components/ui/button";
-import { Download } from "lucide-react";
+import { Download, Target } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const Index = () => {
@@ -135,6 +135,17 @@ const Index = () => {
         onLogout={handleLogout}
         user={user}
       />
+      
+      {/* Simulation Link Button */}
+      <a
+        href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/fc3c9c7c4a6aa151ba41f18e7e4c1feb/51ea10cf-9f58-4f3d-a054-3a22a958b947/index.html"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed left-4 bottom-4 z-50 w-14 h-14 bg-primary hover:bg-secondary rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 group"
+        aria-label="Open Simulation Dashboard"
+      >
+        <Target className="h-7 w-7 text-primary-foreground group-hover:rotate-90 transition-transform duration-300" />
+      </a>
     </div>
   );
 };
