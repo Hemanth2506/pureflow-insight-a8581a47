@@ -141,10 +141,11 @@ const Index = () => {
         href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/fc3c9c7c4a6aa151ba41f18e7e4c1feb/51ea10cf-9f58-4f3d-a054-3a22a958b947/index.html"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed left-4 bottom-4 z-50 w-14 h-14 bg-primary hover:bg-secondary rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 group"
+        className="fixed left-6 bottom-6 z-50 w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 group"
+        style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}
         aria-label="Open Simulation Dashboard"
       >
-        <Target className="h-7 w-7 text-primary-foreground group-hover:rotate-90 transition-transform duration-300" />
+        <Target className="h-8 w-8 text-white group-hover:rotate-90 transition-transform duration-300" />
       </a>
     </div>
   );

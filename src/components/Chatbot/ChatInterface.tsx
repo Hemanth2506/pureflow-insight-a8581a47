@@ -70,10 +70,10 @@ export function ChatInterface() {
     <>
       <Button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-6 right-6 h-16 w-16 rounded-full shadow-lg bg-secondary hover:bg-primary z-50"
+        className="fixed bottom-6 right-6 h-16 w-16 rounded-full shadow-lg bg-secondary hover:bg-secondary/90 text-white z-50"
         size="icon"
       >
-        <MessageCircle className="h-8 w-8" />
+        <MessageCircle className="h-8 w-8 fill-white" />
       </Button>
 
       {isOpen && (
